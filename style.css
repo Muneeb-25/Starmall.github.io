@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.png{
+    width: 100px;
+    height: 40px;
+    padding-left: 15px;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-togglar{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-item a{
+    color: #fff !important; 
+
+}
+.dropdown-item{
+    background-color: bisque!important;
+}
+
+.nav-item a:hover{
+    background-color: aqua;
+    width:100%;
+    transition: 0.5s ease-in-out;
+}
+#slider{
+    width: 100%;
+}
+.carousel-caption h5{
+    color:aqua;
+    font-size: 42px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+#visitus{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(manage.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#visitus h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#visitus h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.visitus{
+    margin-top: 40px;
+}
+.icon{
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#visitus p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.visitus .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+#team{
+    padding: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    background: linear-gradient(rgba(55, 120, 9, 0.6),aqua) !important;
+}
+#team h1{
+    text-align: center;
+    color: #fff!important;
+    padding-bottom: 10px;
+}
+
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(promo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 22px;
+}
+.dropdown-menu li a{
+    color: #000 !important;
+}
+.li{
+    border-right: 3px solid#fff;
+    height: 100%;
+}
